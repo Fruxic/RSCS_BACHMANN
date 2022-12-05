@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.settings">
+        		
+        <cconfiguration id="at.bachmann.cdt.config.c.compiler5.5.2074185202">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="at.bachmann.cdt.config.c.compiler5.5.2074185202" moduleId="org.eclipse.cdt.core.settings" name="Bachmann_5.5_Configuration">
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.VCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactExtension="m" artifactName="rscs_mai" buildArtefactType="at.bachmann.cdt.buildArtefactType.mFile" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=at.bachmann.cdt.buildArtefactType.mFile,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -f" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.VCErrorParser" id="at.bachmann.cdt.config.c.compiler5.5.2074185202" name="Bachmann_5.5_Configuration" parent="at.bachmann.cdt.config.c.compiler5.5">
+                    					
+                    <folderInfo id="at.bachmann.cdt.config.c.compiler5.5.2074185202." name="/" resourcePath="">
+                        						
+                        <toolChain id="at.bachmann.cdt.toolchain.c.compiler5.5.mfile.1704999198" name="Bachmann 5.5 C Toolchain" superClass="at.bachmann.cdt.toolchain.c.compiler5.5.mfile">
+                            							
+                            <targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="at.bachmann.cdt.toolchain.gcc.target.base.platform.658500239" name="Debug Platform" osList="all" superClass="at.bachmann.cdt.toolchain.gcc.target.base.platform"/>
+                            							
+                            <builder buildPath="${workspace_loc:/RSCS_MAIN_BACHMANN}/Bachmann_5.5_Configuration" id="at.bachmann.cdt.toolchain.gcc.base.builder.122295001" managedBuildOn="true" name="Bachmann Make Builder.Bachmann_5.5_Configuration" superClass="at.bachmann.cdt.toolchain.gcc.base.builder"/>
+                            							
+                            <tool id="at.bachmann.cdt.toolchain.gcc.base.c.compiler.462620347" name="Bachmann C Compiler" superClass="at.bachmann.cdt.toolchain.gcc.base.c.compiler">
+                                								
+                                <inputType id="at.bachmann.cdt.toolchain.gcc.base.c.compiler.input.1604575655" superClass="at.bachmann.cdt.toolchain.gcc.base.c.compiler.input">
+                                    									
+                                    <additionalInput kind="additionaldependency" paths="$(C_LEX)"/>
+                                    									
+                                    <additionalInput kind="additionaldependency" paths="$(C_BYACC)"/>
+                                    									
+                                    <additionalInput kind="additionaldependency" paths="$(H_BYACC)"/>
+                                    								
+                                </inputType>
+                                							
+                            </tool>
+                            							
+                            <tool id="at.bachmann.cdt.toolchain.gcc.base.c.compiler.ctdt.1995302044" name="Bachmann C CTDT Compiler" superClass="at.bachmann.cdt.toolchain.gcc.base.c.compiler.ctdt"/>
+                            							
+                            <tool id="at.bachmann.cdt.toolchain.gcc.base.c.linker.compound.554546263" name="Bachmann C Compound Linker" superClass="at.bachmann.cdt.toolchain.gcc.base.c.linker.compound">
+                                								
+                                <inputType id="at.bachmann.cdt.toolchain.gcc.base.linker.compound.input.1213651108" superClass="at.bachmann.cdt.toolchain.gcc.base.linker.compound.input">
+                                    									
+                                    <additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+                                    									
+                                    <additionalInput kind="additionalinput" paths="$(LIBS)"/>
+                                    								
+                                </inputType>
+                                							
+                            </tool>
+                            							
+                            <tool id="at.bachmann.cdt.toolchain.gcc.base.cpp.linker.compound.501925843" name="Bachmann C++ Compound Linker" superClass="at.bachmann.cdt.toolchain.gcc.base.cpp.linker.compound"/>
+                            							
+                            <tool id="at.bachmann.cdt.toolchain.gcc.base.c.linker.stripped.1441940833" name="Bachmann Object Linker" superClass="at.bachmann.cdt.toolchain.gcc.base.c.linker.stripped"/>
+                            							
+                            <tool id="at.bachmann.cdt.toolchain.gcc.base.c.linker.dbo.2044983869" name="Bachmann DBO Linker" superClass="at.bachmann.cdt.toolchain.gcc.base.c.linker.dbo"/>
+                            							
+                            <tool id="at.bachmann.cdt.toolchain.gcc.base.cpp.compiler.752462954" name="Bachmann C++ Compiler" superClass="at.bachmann.cdt.toolchain.gcc.base.cpp.compiler"/>
+                            							
+                            <tool id="at.bachmann.cdt.toolchain.gcc.base.muncher.1694874398" name="Bachmann Muncher" superClass="at.bachmann.cdt.toolchain.gcc.base.muncher"/>
+                            							
+                            <tool id="at.bachmann.cdt.toolchain.gcc.base.mbind.488671960" name="Bachmann M-File Generator" superClass="at.bachmann.cdt.toolchain.gcc.base.mbind"/>
+                            							
+                            <tool id="at.bachmann.cdt.toolchain.gcc.base.mbindplc.1216261763" name="Bachmann PLM-File Generator" superClass="at.bachmann.cdt.toolchain.gcc.base.mbindplc"/>
+                            							
+                            <tool id="at.bachmann.cdt.toolchain.gcc.base.confc.1727794735" name="Bachmann Configuration Rule Compiler" superClass="at.bachmann.cdt.toolchain.gcc.base.confc"/>
+                            							
+                            <tool id="at.bachmann.cdt.toolchain.gcc.base.assembler.584004109" name="Bachmann Assembler" superClass="at.bachmann.cdt.toolchain.gcc.base.assembler">
+                                								
+                                <inputType id="at.bachmann.cdt.toolchain.gcc.base.assembler.input.1922386163" superClass="at.bachmann.cdt.toolchain.gcc.base.assembler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="at.bachmann.cdt.toolchain.gcc.base.byacc.573102768" name="Bachmann Bison/YACC Generator  " superClass="at.bachmann.cdt.toolchain.gcc.base.byacc"/>
+                            							
+                            <tool id="at.bachmann.cdt.toolchain.gcc.base.flex.1859057659" name="Bachmann LEX Generator" superClass="at.bachmann.cdt.toolchain.gcc.base.flex"/>
+                            							
+                            <tool id="at.bachmann.cdt.tool.compiler5.5.archiver.2094313556" name="Bachmann Archiver" superClass="at.bachmann.cdt.tool.compiler5.5.archiver"/>
+                            							
+                            <tool id="at.bachmann.cdt.toolchain.gcc.symconv.1001662562" name="Bachmann Symbol Converter" superClass="at.bachmann.cdt.toolchain.gcc.symconv"/>
+                            							
+                            <tool id="at.bachmann.cdt.tool.compiler5.5.nm.2084189607" name="Bachmann Symbols Extractor" superClass="at.bachmann.cdt.tool.compiler5.5.nm"/>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            		
+        </cconfiguration>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+        		
+        <project id="RSCS_MAIN_BACHMANN.at.bachmann.cdt.toolchain.gcc.cproject.1097310947" name="Bachmann module" projectType="at.bachmann.cdt.toolchain.gcc.cproject"/>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="scannerConfiguration">
+        		
+        <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+    	
+    <storageModule moduleId="refreshScope"/>
+    	
+    <storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+    
+</cproject>
